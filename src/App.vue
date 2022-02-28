@@ -6,7 +6,9 @@
       dark
     >
       <v-spacer />
-      String Calculator
+
+      <h3>String Calculator</h3>
+
       <v-spacer />
     </v-app-bar>
 
@@ -18,7 +20,7 @@
 
 <script>
 import { defineComponent } from '@vue/composition-api'
-import StringCalculator from './components/StringCalculator';
+import StringCalculator from '@/components/StringCalculator';
 
 export default defineComponent({
   name: 'App',
